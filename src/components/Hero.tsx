@@ -12,7 +12,7 @@ export default function Hero() {
     return(
       <section id = "top" className="px-4 scroll-mt-50 text-center py-16">
         <div className="pt-20 flex justify-center items-center gap-3">
-          <img src="/logo/dotori_main.png" alt="dotori logo" className="w-2/3 max-w-xs md:w-1/2 md:max-w-md object-contain"/>
+          <img src="/logo/main_PNG.png" alt="dotori logo" className="scale-75 md:w-1/2 md:max-w-md object-contain"/>
         </div>
         <p className="mt-5 text-sm md:text-lg max-w-xl mx-auto text-[#5e3b1b] font-semibold font-[var(--font-poppins)]">
           "Equal Opportunities for Students at a Fair Price."

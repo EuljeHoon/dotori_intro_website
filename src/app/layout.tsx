@@ -19,7 +19,7 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "dotori",
+  title: "dotori - Evolving dotori...",
   description: "Equal Opportunities for Students at a Fair Price.",
 };
 

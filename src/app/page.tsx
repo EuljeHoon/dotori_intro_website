@@ -33,8 +33,17 @@ export default function Portfolio() {
       </div>
 
       {/* Contact section */}
-      <div className="mt-10 md:mt-[30rem] mb-30 md:mb-[30rem]">
+      <div className="mt-10 md:mt-[30rem]">
         <ContactForm />
+      </div>
+
+      {/* Ending */}
+      <div className="mt-[2rem] md:mt-[2rem] mb-[8rem] md:mb-[20rem] flex justify-center items-center">
+        <img
+          src="/logo/Squirrel_name.png"
+          alt="dotori logo"
+          className="scale-75 md:w-1/2 md:max-w-md object-contain"
+        />
       </div>
 
     </main>

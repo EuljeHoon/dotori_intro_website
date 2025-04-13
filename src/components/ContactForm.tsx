@@ -28,7 +28,7 @@ export default function ContactForm() {
   };
 
   return (
-    <section id="contact" className="scroll-mt-5 md:scroll-mt-50 max-w-5xl mx-auto py-12">
+    <section id="contact" className="px-4 scroll-mt-3 md:scroll-mt-50 max-w-5xl mx-auto py-12">
       <form
       ref={form}
       onSubmit={sendEmail}

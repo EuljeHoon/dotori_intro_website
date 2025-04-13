@@ -4,7 +4,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="px-4 scroll-mt-25 max-w-6xl mx-auto"
+      className="px-4 scroll-mt-18 max-w-6xl mx-auto"
     >
       <div className="text-3xl font-bold mb-6 text-[#5e3b1b]">
           <h2>Our Journey</h2>
@@ -42,7 +42,7 @@ export default function About() {
             <img
               src="/dotori_together.png"
               alt="Happy with dotori"
-              className="h-[30rem] w-flex object-cover rounded-xl shadow-md"
+              className="h-[30rem] w-flex mb-[1rem] object-cover rounded-xl shadow-md"
             />
           </div>
           <div className="flex flex-col gap-4 text-[16px] leading-relaxed">
