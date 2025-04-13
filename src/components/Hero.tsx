@@ -1,28 +1,28 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
+import { Poppins} from 'next/font/google'
+
+const poppins = Poppins({
+  weight: ['400', '600'],
+  subsets: ['latin'],
+  variable: '--font-poppins',
+});
 
 export default function Hero() {
     return(
-      <section id = "top" className="scroll-mt-10 text-center py-16">
-        <div className="flex justify-center items-center gap-3">
-          <h1 className="text-4xl font-bold">Jehoon Park</h1>
-          <img src = "/logo/umn_logo.png" alt = "University of Minnesota logo" className = "h-8 md:h-10 object-contain"/>
+      <section id = "top" className="px-4 scroll-mt-50 text-center py-16">
+        <div className="pt-20 flex justify-center items-center gap-3">
+          <img src="/logo/dotori_main.png" alt="dotori logo" className="w-2/3 max-w-xs md:w-1/2 md:max-w-md object-contain"/>
         </div>
-        <p className="mt-4 text-xl">
-          CS Student at U of M Twin Cities
-        </p>
-        <p className="mt-2 text-lg max-w-xl mx-auto">
-        A Computer Science student with broad interests across the stack — from frontend design to backend logic and everything in between.
+        <p className="mt-5 text-sm md:text-lg max-w-xl mx-auto text-[#5e3b1b] font-semibold font-[var(--font-poppins)]">
+          "Equal Opportunities for Students at a Fair Price."
         </p>
         <div className="mt-6 flex justify-center gap-4">
-          <a href = "https://github.com/EuljeHoon" download target = "_blank" rel = "noopener noreferrer">
-            <Button className="bg-[#7A0019] hover:bg-[#FFCC33] text-white">GitHub</Button>
+          <a href = "" download target = "_blank" rel = "noopener noreferrer">
+            <Button className="bg-[#5e3b1b] hover:bg-[#b47938] text-white">Homepage(Coming soon)</Button>
           </a>
-          <a href = "/Jehoon_s_Resume_new.pdf" download target = "_blank" rel = "noopener noreferrer">
-            <Button className="bg-[#7A0019] hover:bg-[#FFCC33] text-white">Download Resume</Button>
-          </a>
-          <a href = "https://www.linkedin.com/in/jehoon0213/" download target = "_blank" rel = "noopener noreferrer">
-            <Button className="bg-[#7A0019] hover:bg-[#FFCC33] text-white">LinkedIn</Button>
+          <a href = "https://www.linkedin.com/company/106694156/admin/dashboard/" download target = "_blank" rel = "noopener noreferrer">
+            <Button className="bg-[#5e3b1b] hover:bg-[#b47938] text-white">LinkedIn</Button>
           </a>
         </div>
       </section>

@@ -117,7 +117,8 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-no-repeat bg-cover bg-fixed;
+    background-image: url('/background.png');
   }
 }
 

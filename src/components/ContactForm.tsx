@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef } from "react";
+import { Button } from "@/components/ui/button";
 import emailjs from "@emailjs/browser";
 
 export default function ContactForm() {
@@ -27,14 +28,14 @@ export default function ContactForm() {
   };
 
   return (
-    <section id="contact" className="scroll-mt-12 max-w-5xl mx-auto py-12">
+    <section id="contact" className="scroll-mt-5 md:scroll-mt-50 max-w-5xl mx-auto py-12">
       <form
       ref={form}
       onSubmit={sendEmail}
       className="max-w-xl mx-auto p-6 bg-white shadow-xl rounded-2xl space-y-4 mt-16"
       >
-        <h2 className="text-2xl font-bold text-[#7A0019]">📮 Contact Jehoon</h2>
-        <p className="text-[#7A0019] text-black">I'm always open to have conversations. DO NOT hesitate to contact me!</p>
+        <h2 className="text-2xl font-bold text-[#5e3b1b]">🤎 Contact dotori</h2>
+        <p className="text-[#5e3b1b] text-black">We are always open to any questions. Feel free to contact us anytime!</p>
         
         <input
           type="text"
@@ -59,12 +60,12 @@ export default function ContactForm() {
           required
         />
 
-        <button
+        <Button
           type="submit"
-          className="bg-[#7A0019] text-white px-4 py-2 rounded hover:bg-[#FFCC33] hover:text-black transition"
+          className="bg-[#5e3b1b] text-white hover:bg-[#b47938] transition"
         >
-          Send Message
-        </button>
+          Send Email
+        </Button>
       </form>
     </section>
 
