@@ -34,7 +34,7 @@ export default function ContactForm() {
       onSubmit={sendEmail}
       className="max-w-xl mx-auto p-6 bg-white shadow-xl rounded-2xl space-y-4 mt-16"
       >
-        <h2 className="text-2xl font-bold text-[#5e3b1b]">🤎 Contact dotori</h2>
+        <h2 className="text-2xl font-bold text-[#5e3b1b]">Contact Us 🐿️</h2>
         <p className="text-[#5e3b1b] text-black">We are always open to any questions. Feel free to contact us anytime!</p>
         
         <input
