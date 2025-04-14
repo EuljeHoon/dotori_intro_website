@@ -41,7 +41,7 @@ export default function Members() {
               role="Co-Founder / Data Engineer"
               university="New York University"
               email="jessicahahm4451@gmail.com"
-              quote="Fxxk 유학원."
+              quote="..."
               imageSrc="/members/dotori_seoyoon.JPG"
               linkedInUrl="https://www.linkedin.com/in/seoyoon-jessica-ham0101/"
             />
