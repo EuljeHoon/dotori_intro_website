@@ -28,14 +28,14 @@ export default function ContactForm() {
   };
 
   return (
-    <section id="contact" className="px-4 scroll-mt-3 md:scroll-mt-50 max-w-5xl mx-auto py-12">
+    <section id="contact" className="px-4 scroll-mt-[5rem] md:scroll-mt-50 max-w-5xl mx-auto py-12">
       <form
       ref={form}
       onSubmit={sendEmail}
       className="max-w-xl mx-auto p-6 bg-white shadow-xl rounded-2xl space-y-4 mt-16"
       >
-        <h2 className="text-2xl font-bold text-[#5e3b1b]">Contact Us 🐿️</h2>
-        <p className="text-[#5e3b1b] text-black">We are always open to any questions. Feel free to contact us anytime!</p>
+        <h2 className="text-2xl font-bold text-[#5e3b1b]">Contact dotori 🐿️</h2>
+        <p className="text-[#5e3b1b]">We are always open to any questions. Feel free to contact us anytime!</p>
         
         <input
           type="text"

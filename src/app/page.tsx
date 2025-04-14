@@ -1,11 +1,12 @@
 import React from "react";
-import ContactForm from "@/components/ContactForm";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import IconList from "@/components/IconList";
 import Members from "@/components/Members";
 import Story from "@/components/Story";
+import DemoRegister from "@/components/DemoRegister";
+import ContactForm from "@/components/ContactForm";
 
 export default function Dotori() {
   return (
@@ -38,19 +39,25 @@ export default function Dotori() {
         <Story/>
       </div>
 
+      {/* Demo Reservation */}
+      <div className="mt-[10rem] md:mt-[20rem]">
+        <DemoRegister />
+      </div>
+
       {/* Contact section */}
-      <div className="mt-[7rem] md:mt-[10rem]">
+      <div className="mt-2 md:mt-[2rem]">
         <ContactForm />
       </div>
 
       {/* Ending */}
-      <div className="mt-[2rem] md:mt-[2rem] mb-[8rem] md:mb-[20rem] flex justify-center items-center">
+      <footer className="mt-[6rem] md:mt-[10rem] mb-[6rem] md:mb-[10rem] flex flex-col justify-center items-center">
         <img
           src="/logo/Squirrel_name.png"
           alt="dotori logo"
           className="scale-75 md:w-1/2 md:max-w-md object-contain"
         />
-      </div>
+        <p className="px-4 text-black font-extralight mt-[1rem]">Company name: dotori | Email: dotoripack@gmail.com | Minneapolis</p>
+      </footer>
 
     </main>
   );

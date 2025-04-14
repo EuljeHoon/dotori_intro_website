@@ -3,13 +3,13 @@ import React from "react";
 export default function Header() {
   return (
     <header className="bg-[#e0f2c1] fixed top-0 left-0 w-full h-16 shadow-md z-50">
-      <div className="h-full px-6 flex justify-between items-center">
+      <div className="h-full px-6 md:px-15 flex justify-between items-center">
         {/* logo */}
         <a href="#top" className="hover:text-white transition">
           <img
             src="/logo/just_name.png"
             alt="Dotori name"
-            className="h-5 sm:h-5 md:h-10 w-auto object-contain mr-3 sm:mr-5"
+            className="h-5 sm:h-5 md:h-7 w-auto object-contain mr-3 sm:mr-5"
           />
         </a>
 
