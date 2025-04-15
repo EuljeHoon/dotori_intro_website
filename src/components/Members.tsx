@@ -41,7 +41,7 @@ export default function Members() {
               role="Co-Founder / Data Engineer"
               university="New York University"
               email="jessicahahm4451@gmail.com"
-              quote="..."
+              quote="Your story deserves to be written, not priced."
               imageSrc="/members/dotori_seoyoon.JPG"
               linkedInUrl="https://www.linkedin.com/in/seoyoon-jessica-ham0101/"
             />
