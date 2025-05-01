@@ -19,7 +19,7 @@ export default function Hero() {
         </p>
         <div className="mt-6 flex justify-center gap-4">
           <a href = "https://cal.com/dotori-pack/30min" download target = "_blank" rel = "noopener noreferrer">
-            <Button className="bg-[#5e3b1b] hover:bg-[#b47938] text-white">Book a free demo</Button>
+            <Button className="bg-[#5e3b1b] hover:bg-[#b47938] text-white">Reserve a meeting</Button>
           </a>
           <a href = "https://www.linkedin.com/company/106694156/admin/dashboard/" download target = "_blank" rel = "noopener noreferrer">
             <Button className="bg-[#5e3b1b] hover:bg-[#b47938] text-white">LinkedIn</Button>
