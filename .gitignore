@@ -39,3 +39,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Ignore everything inside public/logo, public/gallery, etc.
+public/logo/
+public/gallery/
+public/icon/
+public/members/
+public/story/
+public/budget_image.png
+public/commonapp_image.png
+public/dotori_favicon.ico
+public/dotori_together.png
+public/new_background.png

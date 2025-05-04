@@ -7,7 +7,7 @@ export default function Header() {
         {/* logo */}
         <a href="#top" className="hover:text-white transition">
           <img
-            src="/logo/just_name.png"
+            src="/logo/dotori_name_invisible_back.png"
             alt="Dotori name"
             className="h-5 sm:h-5 md:h-7 w-auto object-contain mr-3 sm:mr-5"
           />
@@ -19,6 +19,7 @@ export default function Header() {
           <a href="#members" className="hover:text-white transition">Members</a>
           <a href="#story" className="hover:text-white transition">Story</a>
           <a href="#contact" className="hover:text-white transition">Contact</a>
+          <a href="/gallery" className="hover:text-white transition">Gallery</a>
         </nav>
       </div>
     </header>
