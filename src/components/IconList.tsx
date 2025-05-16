@@ -15,7 +15,14 @@ export default function IconList() {
           </h2>
           <ul className="font-medium space-y-1">
             <li>No unnecessary extras. No wasted costs.</li>
-            <li>24/7 AI-powered support, anytime students need it.</li>
+            <li>24/7 AI-powered support, anytime students need it.
+                {" "}
+                <a href="https://docs.google.com/document/d/16RD_VAjGTr0GRAmto9QcOkKSlT3xlEElxfL9XJ_Kkhw/edit?tab=t.0#heading=h.ppe318csm314"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   className="underline text-sm"
+                >AI Guidelines</a>
+            </li>
             <li>Personalized to highlight student's strengths.</li>
             <li>Consulting that considers the life after admission, too.</li>
           </ul>

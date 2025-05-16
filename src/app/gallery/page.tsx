@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Dotori() {
     return (
-       <main className="min-h-screen bg-cover bg-fixed bg-center bg-white overflow-x-hidden flex flex-col">
+       <main className="min-h-screen bg-cover bg-fixed bg-center bg-teal-50 overflow-x-hidden flex flex-col">
         <div className="flex justify-center text-3xl font-bold mb-6">
           <img
             src="/logo/Squirrel_name.png"
@@ -34,7 +34,11 @@ export default function Dotori() {
             />
         </div>
         <div className="flex justify-center">
-            No images yet.
+            <img
+                src="/gallery/normal/Together.png"
+                alt="Image1"
+                className="h-[25rem] w-auto object-contain rounded-md shadow-lg"
+            />
         </div>
        </main>
     );
